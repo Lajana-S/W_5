@@ -73,6 +73,16 @@ public class Q7
             }
             case 1:
             {
+                System.out.println("Enter first number:");
+                n1= scan.nextInt();
+                scan.nextLine();
+                System.out.println("Enter second number:");
+                n2= scan.nextInt();
+                scan.nextLine();
+                System.out.println("Type 1 for Addition");
+                System.out.println("Type 2 for Subtraction");
+                System.out.println("Type 3 for Multiplication");
+                System.out.println("Type 4 for Division");
                 System.out.println("Enter your choice:");
                 o= scan.nextInt();
                 scan.nextLine();
