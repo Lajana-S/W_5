@@ -32,7 +32,7 @@ public class FixedDepositNIB
             System.out.println("");
             System.out.println("--------------------------------------------------------------------------");
             System.out.println("");
-            if(p>=1000 && (r<=12 || r>=8) && d<5)
+            if(p>=1000 && (r>=8 && r<=12) && d<5)
             {
                 double mr = (r/100) / 12;
                 double m = d * 12;
@@ -51,7 +51,7 @@ public class FixedDepositNIB
             }
             else
             {
-                System.out.println("Minimun deposit should be Rs.1000.\n Interest rate should be between 8% and 12%.\n The maximum duration should be 5 years.");
+                System.out.println("Minimun deposit should be Rs.1000.\nInterest rate should be between 8% and 12%.\nThe maximum duration should be 5 years.");
             }
             System.out.println("");
             System.out.println("---------------------------------------------------------------------------");
@@ -69,6 +69,7 @@ public class FixedDepositNIB
             System.out.println("");
             System.out.println("---------------------------------------------------------------------------");
         }
+        System.out.println("                               Thank You ");
         System.out.println("");
         System.out.println("===========================================================================");
     }

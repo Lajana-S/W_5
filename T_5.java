@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class T_5
 {
     public static void main(String[] args){
-        //For loop(range is known)
+        System.out.println("For loop (range is known) :");
         int sum=0;
         Scanner in= new Scanner(System.in);
         System.out.println("Enter a range:");
@@ -20,7 +20,7 @@ public class T_5
         }
         System.out.println(sum);
         System.out.println("");
-        //while loop(only the condition is known)
+        System.out.println("while loop(only the condition is known)");
         int j=1;
         while(j<=5)
         {
@@ -28,7 +28,7 @@ public class T_5
             j++;
         }
         System.out.println("");
-        //do while loop(execute at least one time)
+        System.out.println("do while loop(execute at least one time)");
         int k=1;
         do
         {
@@ -39,7 +39,7 @@ public class T_5
         System.out.println("");
         //unconditional statements(usually used inside a conditional statement)
         
-        //break statement or jump statement(exits)
+        System.out.println("break statement or jump statement(exits)");
         for (int l=1;l<=10;l++)
         {
             if (l==3){
@@ -48,7 +48,7 @@ public class T_5
             System.out.println(l);
         }
         System.out.println("");
-        //continue statement(skips printing even numbers)
+        System.out.println("continue statement(skips printing even numbers)");
         for (int m=1;m<=10;m++)
         {
             if (m%2==0){
@@ -57,7 +57,7 @@ public class T_5
             System.out.println(m);
         }
         System.out.println("");
-        //nested loops(patterns and matrix)
+        System.out.println("nested loops(patterns and matrix)");
         for(int a=1;a<=5;a++){
             for(int b=1;b<=a;b++){
                 System.out.print("*");

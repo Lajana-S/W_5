@@ -8,6 +8,7 @@
 public class Q2
 {
     public static void main(String[] args){
+        System.out.println("While loop");
         int i=1;
         while(i<=10)
         {

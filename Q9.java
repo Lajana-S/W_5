@@ -13,6 +13,7 @@ public class Q9
         System.out.println("Enter a positive integer:");
         int n=scan.nextInt();
         scan.nextLine();
+        int o=n;
         int a=0;
         int r=0;
         while(n!=0)
@@ -21,6 +22,7 @@ public class Q9
             r=(r*10)+a;
             n=n/10;
         }
-        System.out.println(r);
+        System.out.println("");
+        System.out.println("Reverse number of "+o+" is "+r);
     }
 }

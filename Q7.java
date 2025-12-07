@@ -28,41 +28,67 @@ public class Q7
         int o= scan.nextInt();
         scan.nextLine();
         
+        if (o>=1 && o<=4)
+     {
         while(o>=1 && o<=4)
         {
-            if(o==1)
+            switch (o)
             {
+            case 1:
+                {
                 int sum=n1+n2;
                 System.out.println("Sum of "+n1+" and "+n2+" is "+sum);
-            }
-            else if(o==2)
-            {
+                break;
+                }
+            case 2:
+                {
                 int diff=n1-n2;
                 System.out.println("Difference of "+n1+" and "+n2+" is "+diff);
-            }
-            else if(o==3)
-            {
+                break;
+                }
+            case 3:
+                {
                 int pro=n1*n2;
                 System.out.println("Product of "+n1+" and "+n2+" is "+pro);
-            }
-            else
-            {
+                break;
+                }
+            case 4:
+                {
                 double quo=n1/n2;
                 System.out.println("Quotient of "+n1+" and "+n2+" is "+quo);
+                break;
+                }
             }
             System.out.println("Do you want to continue?(1-yes and 0-no)");
             int a=scan.nextInt();
             scan.nextLine();
-            if (a==1)
+            switch (a)
+            {
+            case 0:
+            {
+                System.out.println("Thank you!!");
+                o= 0;
+                break;
+            }
+            case 1:
             {
                 System.out.println("Enter your choice:");
                 o= scan.nextInt();
                 scan.nextLine();
-            }
-            else
-            {
                 break;
             }
+            default:
+            {
+                System.out.println("Your choice is invalid!");
+                o=0;
+                break;
+            }
+            }
         }
-    }
+     }
+     else
+     {
+         System.out.println("Your choice is invalid!");   
+     }
+}
 }
