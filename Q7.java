@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Q7
 {
     public static void main(String[] args){
+        System.out.println("");
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter first number:");
         int n1= scan.nextInt();

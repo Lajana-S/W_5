@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class T_5
 {
     public static void main(String[] args){
+        System.out.println("");
         System.out.println("For loop (range is known) :");
         int sum=0;
         Scanner in= new Scanner(System.in);
